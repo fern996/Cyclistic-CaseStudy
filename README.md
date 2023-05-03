@@ -100,7 +100,7 @@ The data source used is public [data](https://divvy-tripdata.s3.amazonaws.com/in
 11. 202302-divvy-tripdata.zip
 12. 202303-divvy-tripdata.zip
 
-I loaded the files into BigQuery and combined all the tables into one. Using the aggregated table, I was able to select and find the attributes with and without blank cells. I chose the attributes that were relevant to my analyses which were also complete. The resulting data is anonymized i.e., there is no personal information (credit card, personal details, etc) which also means there will be no personal bias.
+I loaded the files into BigQuery and combined all the tables into one. Using the aggregated table, I was able to select and find the attributes with and without blank cells. I chose the attributes that were relevant to my analyses which were also complete. The resulting data is anonymized i.e., there is no personal information (credit card, personal details, etc) which also means there will be no personal bias. But, the data will have to be further cleaned and transformed to be made reliable and comprehensive.
 
 ## 3.Process:
 
