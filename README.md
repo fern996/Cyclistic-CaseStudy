@@ -333,7 +333,7 @@ Supporting visuals and key findings.
 
 #### Visualizations and Key Findings:
 ##### Presentation Material can be found here:
-[Tableau Storu](https://public.tableau.com/views/Case_Study1Cyclistic/CyclisticShare?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+[Tableau Story](https://public.tableau.com/views/Case_Study1Cyclistic/CyclisticShare?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 ##### Supporting visualizations:
 
 ![image](https://user-images.githubusercontent.com/43974678/236042589-78f50eec-09e8-44ea-bf6c-8710614f7e1c.png)
