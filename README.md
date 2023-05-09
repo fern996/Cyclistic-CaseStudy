@@ -11,7 +11,7 @@
 
 ## 1.ASK:
 
-#### Deliverable:
+#### Expected Deliverable:
 
 A clear statement of the business task.
 
@@ -24,7 +24,7 @@ A clear statement of the business task.
 - How can your insights drive business decisions?
   - By learning how annual members and casual riders use Cyclistic bikes differently, Cyclistic can then developer marketing strategies around the habits of casual riders and demonstrate how they can benefit from an annual pass like annual members.
 
-### Business Task:
+### Deliverable: Business Task:
 
 The business task for this study will be to identify the differences between the trends and patterns of casual and Cyclistic members and then present these findings to the executive team.
 
@@ -32,7 +32,7 @@ The business task for this study will be to identify the differences between the
 
 _Note: The datasets have a different name because Cyclistic is a fictional company. For the purposes of this case study, the datasets are appropriate and will enable you to answer the business questions. The data has been made available by Motivate International Inc. under this_ [license](https://www.divvybikes.com/data-license-agreement)_._
 
-#### Deliverable:
+#### Expected Deliverable:
 
 A description of all data sources used.
 
@@ -83,7 +83,7 @@ Attributes of the data and will I need it:
 
 So, the attributes I'll be using are rideable\_type, started\_at, ended\_at and member\_casual. Will need to rename member\_casual to member\_type.
 
-### Data Sources Used:
+### Deliverable: Data Sources Used:
 
 The data source used is public [data](https://divvy-tripdata.s3.amazonaws.com/index.html) provided by Motivate International Inc under this[license](https://www.divvybikes.com/data-license-agreement)_._ The files from the database used are:
 
@@ -104,7 +104,7 @@ I loaded the files into BigQuery and combined all the tables into one. Using the
 
 ## 3.Process:
 
-#### Deliverable:
+#### Expected Deliverable:
 
 Documentation of any cleaning or manipulation of data.
 
@@ -202,11 +202,24 @@ Schema of the final columns used:
 
 ## 4.Analyze:
 
-### Deliverable:
+### Expected Deliverable:
 
 A summary of the analysis
 
-### Analysis:
+#### Guiding questions:
+
+- How should you organize your data to perform analysis on it?
+  - Ill be importing my data into BigQuery and compiling all the datasets into one table. Ill be then using aggregate functions to create summary tables, or filter the table for a column to answer specific questions.
+- Has your data been properly formatted?
+  - Yes, I went through each table and made sure that the data type is of the proper formats and that the table dimensions for all the tables are the same.
+- What surprises did you discover in the data?
+  - That casual customers may have longer ride lengths, maybe up to a month. We may want to track such behaviours in real time to maybe persuade them to switch over to annual memberships.
+- What trends or relationships did you find in the data?
+  - Members are more consistent with their usage during day hours and during the week. They are also more likely to use the service during colder months, where casual members sharply drop off in usage.
+- How will these insights help answer your business questions?
+  - These insights highlight how both member types use the service differently. Hence it does allow me to answer the business question.
+
+### Deliverable: Analysis:
 
 For the purposes of the analysis, I will be referring to our annual customers as members and our casual customers as casuals.
 
@@ -301,22 +314,9 @@ This is the SQL query used:
 
 Here the max length is represented in hours. The longest ride was for 689.78 hours or around 28 days from a casual member. In all four quarters, casual customers have long rides of over 500 hours. Meanwhile members have only around 25-hour long rides in three of the quarters, but there was one ride in Q3 that was for 172 hours.
 
-#### Guiding questions:
-
-- How should you organize your data to perform analysis on it?
-  - Ill be importing my data into BigQuery and compiling all the datasets into one table. Ill be then using aggregate functions to create summary tables, or filter the table for a column to answer specific questions.
-- Has your data been properly formatted?
-  - Yes, I went through each table and made sure that the data type is of the proper formats and that the table dimensions for all the tables are the same.
-- What surprises did you discover in the data?
-  - That casual customers may have longer ride lengths, maybe up to a month. We may want to track such behaviours in real time to maybe persuade them to switch over to annual memberships.
-- What trends or relationships did you find in the data?
-  - Members are more consistent with their usage during day hours and during the week. They are also more likely to use the service during colder months, where casual members sharply drop off in usage.
-- How will these insights help answer your business questions?
-  - These insights highlight how both member types use the service differently. Hence it does allow me to answer the business question.
-
 ## 5.Share:
 
-#### Deliverable:
+#### Expected Deliverable:
 
 Supporting visuals and key findings.
 
@@ -331,7 +331,7 @@ Supporting visuals and key findings.
 - Can data visualization help you share your findings?
   - Data visualization will definitely help me share my findings, as there is just to much information and not enough time to explain the whole thing in text or table.
 
-#### Visualizations and Key Findings:
+#### Deliverable: Visualizations and Key Findings:
 ##### Presentation Material can be found here:
 [Tableau Story](https://public.tableau.com/views/Case_Study1Cyclistic/CyclisticShare?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 ##### Supporting visualizations:
@@ -368,7 +368,18 @@ Both member types differ in how they use the Cyclistic's services:
 
 ## 6.Act:
 
-#### Deliverable:
+#### #### Guiding questions:
+
+- How should you organize your data to perform analysis on it?
+  - Ill be importing my data into BigQuery and compiling all the datasets into one table. Ill be then using aggregate functions to create summary tables, or filter the table for a column to answer specific questions.
+- Has your data been properly formatted?
+  - Yes, I went through each table and made sure that the data type is of the proper formats and that the table dimensions for all the tables are the same.
+- What surprises did you discover in the data?
+  - That casual customers may have longer ride lengths, maybe up to a month. We may want to track such behaviours in real time to maybe persuade them to switch over to annual memberships.
+- What trends or relationships did you find in the data?
+  - Members are more consistent with their usage during day hours and during the week. They are also more likely to use the service during colder months, where casual members sharply drop off in usage.
+- How will these insights help answer your business questions?
+  - These insights highlight how both member types use the service differently. Hence it does allow me to answer the business question.Deliverable:
 
 Your top three recommendations based on your analysis.
 
@@ -383,7 +394,7 @@ Your top three recommendations based on your analysis.
 - Is there additional data you could use to expand on your findings?
   - I could use the starting and ending stations. I did not use it here because of its incomplete nature. But it would have given me locations based usage data between both member groups.
 
-### Recommendations:
+### Deliverable: Recommendations:
 
 **Top Three Recommendations:**
 
