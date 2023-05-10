@@ -1,3 +1,4 @@
+![How does a bike-share navigate speedy success?](/Assets/banner.png)
 # How Does a Bike-Share Navigate Speedy Success?
 #### A Case Study
 
