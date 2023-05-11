@@ -44,10 +44,11 @@ A description of all data sources used.
   - The data is structured and in a wide format.
 - Are there issues with bias or credibility in this data? Does your data ROCCC?
   - Using the ROCCC test:
-    - The data is not Reliable. It has missing cells for the start\_station\_name, end\_station\_name, end\_lat and end\_lng. I may not need to use these columns in my final analysis. There are no biases in the database or spelling mistakes. But I will need to clean the data for mistakes, etc.
-    - The data is original, it is first party data collected from the Divvy data logging system.
+    - The data is Reliable. It has missing cells for the start\_station\_name, end\_station\_name, end\_lat and end\_lng, but I may not need to use these columns in my final analysis. There are no biases in the database or spelling mistakes. But I will need to clean the data for mistakes, etc.
+    - The data is Original: it is first party data collected from the Divvy data logging system.
     - The data is Comprehensive: the data is comprehensive as it contains all that I need to make my analysis.
-    - The data is Current. It contains data from the last 12 months i.e., March 2023 to May 2022.
+    - The data is Current: It contains data from the last 12 months i.e., March 2023 to May 2022.
+    - The data is Cited: The data source is first party. 
 - How are you addressing licensing, privacy, security, and accessibility?
   - The data does not contain any private information i.e., credit card information which could connect the rides to the customer. Also, licensing is covered in https://ride.divvybikes.com/data-license-agreement.
 - How did you verify the data's integrity?
