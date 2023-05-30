@@ -172,19 +172,15 @@ Because the collated table would be too large for a spreadsheet tool like excel 
 
 8. Changing numeric month to literal month.
 
-![image](https://user-images.githubusercontent.com/43974678/236041623-680c4889-c3b2-4aff-867f-c888ebc97081.png)
+![image](https://github.com/sf0912/Cyclistic-CaseStudy/assets/43974678/cf4511ec-1acf-4222-8280-b816fd3d9688)
 
 9. To represent yearly quarters, I created a new column of type string and I used this set of queries to update the new column.
 
-![image](https://user-images.githubusercontent.com/43974678/236041666-461ccba4-f34b-4275-84cf-d7ee3bf94520.png)
+![image](https://github.com/sf0912/Cyclistic-CaseStudy/assets/43974678/6ed819f8-34b9-4f74-8b9d-44e82796b1ec)
 
 10. At this stage, the number of rows that I had were 5,803,720. Of these, 633,307 entries (10.7%) were rides that were 3 minutes or less. I decided to filter these rides out as customers could have made mistakes or they could have canceled the ride.
 
 11. The final table has 5,170,413 rows of data.
-
-12. I added a new column called year\_quarter to allow me the ability to group data into quarters or seasons when needed.
-
-![image](https://user-images.githubusercontent.com/43974678/236041700-33b1a591-6433-4cdb-bd83-c8513d67ab29.png)
 
 Schema of the final columns used:
 
